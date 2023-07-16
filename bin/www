@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('testep:server');
+var debug = require('debug')('expressjs_ejs_default:server');
 var http = require('http');
 
 /**
