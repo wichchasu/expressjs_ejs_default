@@ -3,8 +3,8 @@ var router = express.Router();
 const aboutController = require('../controller/aboutController');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('pages/about', { title: 'About' ,fn: aboutController.method1 });
+router.get('/',function(req, res, next) {
+  res.render('pages/about',{ title: 'About' ,fn: aboutController.method1 });
 });
 
 //router.get('/', controller.method1);
